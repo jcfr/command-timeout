@@ -8,7 +8,7 @@ setup(name='command-timeout',
       packages=find_packages(),
       entry_points={
           'console_scripts': [
-              'command-timeout = command-timeout.__main__:main'
+              'command-timeout = command_timeout.__main__:main'
           ]
       },
      )
